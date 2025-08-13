@@ -1,17 +1,8 @@
 # MedSAM
-This is the official repository for MedSAM: Segment Anything in Medical Images.
+This is the official repository for MedSAM Submission for BraTS-Lighthouse 2025 Challenge, Team Nigerian North Central
 
-Welcome to join our [mailing list](https://forms.gle/hk4Efp6uWnhjUHFP6) to get updates.
-
-
-## News
-
-- 2025.04.07: Release [MedSAM2](https://github.com/bowang-lab/MedSAM2) for 3D and video segmentation.
-- 2025.02: Welcome to join CVPR 2025 Challenges: [Interactive](https://www.codabench.org/competitions/5263/) and [Text-guided](https://www.codabench.org/competitions/5651/) 3D Biomedical Image Segmentation
-- 2024.01.15: Welcome to join [CVPR 2024 Challenge: MedSAM on Laptop](https://www.codabench.org/competitions/1847/)
-- 2024.01.15: Release [LiteMedSAM](https://github.com/bowang-lab/MedSAM/blob/LiteMedSAM/README.md) and [3D Slicer Plugin](https://github.com/bowang-lab/MedSAMSlicer), 10x faster than MedSAM! 
-
-
+ 
+ 
 ## Installation
 1. Create a virtual environment `conda create -n medsam python=3.10 -y` and activate it `conda activate medsam`
 2. Install [Pytorch 2.0](https://pytorch.org/get-started/locally/)
@@ -106,23 +97,4 @@ python utils/ckpt_convert.py # Please set the corresponding checkpoint path firs
 python train_one_gpu.py
 ```
 
-
-
-## Acknowledgements
-- We highly appreciate all the challenge organizers and dataset owners for providing the public dataset to the community.
-- We thank Meta AI for making the source code of [segment anything](https://github.com/facebookresearch/segment-anything) publicly available.
-- We also thank Alexandre Bonnet for sharing this great [blog](https://encord.com/blog/learn-how-to-fine-tune-the-segment-anything-model-sam/)
-
-
-## Reference
-
-```
-@article{MedSAM,
-  title={Segment Anything in Medical Images},
-  author={Ma, Jun and He, Yuting and Li, Feifei and Han, Lin and You, Chenyu and Wang, Bo},
-  journal={Nature Communications},
-  volume={15},
-  pages={654},
-  year={2024}
-}
-```
+  
